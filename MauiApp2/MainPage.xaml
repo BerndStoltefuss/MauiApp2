@@ -26,13 +26,13 @@
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
             <Grid ColumnDefinitions="*,*,*">
-                <my:MyButton Style="{StaticResource PrimaryButtonStyle}" ImageSource="{FontImage FontFamily={StaticResource Ionicons}, Glyph={x:Static my:IonIconCode.IonClock}, Size=25}"
+                <my:MyButton Style="{StaticResource PrimaryButtonStyle}" ImageSource="{FontImage FontFamily={OnPlatform iOS=Ionicons, Android=ionicons.ttf#}, Glyph={x:Static my:IonIconCode.IonClock}, Size=25}"
                     Text="IButton1" 
                     HorizontalOptions="Start" Grid.Column="0" />
-                <my:MyButton Style="{StaticResource PrimaryButtonStyle}" ImageSource="{FontImage FontFamily={StaticResource Ionicons}, Glyph={x:Static my:IonIconCode.IonClock}, Size=25}"
+                <my:MyButton Style="{StaticResource PrimaryButtonStyle}" ImageSource="{FontImage FontFamily={OnPlatform iOS=Ionicons, Android=ionicons.ttf#}, Glyph={x:Static my:IonIconCode.IonClock}, Size=25}"
                     Text="IButton2" 
                     HorizontalOptions="Center" Grid.Column="1" />
-                <my:MyButton Style="{StaticResource PrimaryButtonStyle}" ImageSource="{FontImage FontFamily={StaticResource Ionicons}, Glyph={x:Static my:IonIconCode.IonClock}, Size=25}"
+                <my:MyButton Style="{StaticResource PrimaryButtonStyle}" ImageSource="{FontImage FontFamily={OnPlatform iOS=Ionicons, Android=ionicons.ttf#}, Glyph={x:Static my:IonIconCode.IonClock}, Size=25}"
                     Text="IButton3" 
                     HorizontalOptions="End" Grid.Column="2" />
 

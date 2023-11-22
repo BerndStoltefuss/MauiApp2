@@ -7,10 +7,11 @@
 
     <OnPlatform x:TypeArguments="x:String" x:Key="Ionicons">
         <On Platform="iOS" Value="Ionicons"/>
+        <On Platform="Android" Value="Ionicons"/>
     </OnPlatform>
 
     <Style x:Key="PrimaryButtonStyle" TargetType="Button" ApplyToDerivedTypes="True">
-        <Setter Property="MinimumHeightRequest" Value="40"/>
+        <Setter Property="MinimumHeightRequest" Value="45"/>
         <Setter Property="HeightRequest" Value="45"/>
         <Setter Property="FontSize" Value="Large" />
         <Setter Property="FontAttributes" Value="Bold" />
